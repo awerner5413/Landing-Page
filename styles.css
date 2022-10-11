@@ -101,6 +101,7 @@ a {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  background-color: #444;
 }
 
 /* css styles from the code-along */
