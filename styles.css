@@ -74,6 +74,12 @@ hr {
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .push {
   margin-left: auto;
 }
@@ -88,12 +94,11 @@ a {
 }
 
 /* Cover */
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh; /* vh is viewport height and will change size to adjust the % # you put in this field */
+  height: 30vh; /* vh is viewport height and will change size to adjust the % # you put in this field */
 }
 
 /* Project Grid */
@@ -102,6 +107,7 @@ a {
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   background-color: #444;
+  padding: 20px;
 }
 
 /* css styles from the code-along */
